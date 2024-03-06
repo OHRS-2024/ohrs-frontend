@@ -1,11 +1,13 @@
 {
   "name": "house-rental",
-  "version": "0.1.0",
+  "version": "http://127.0.0.1:4000",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
+    "axios": "^1.6.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.50.1",
@@ -16,7 +18,7 @@
     "zod": "^3.22.4"
   },
   "scripts": {
-    "tail" : "tailwindcss -i ./src/input.css -o ./src/assets/main.css --watch",
+    "tail": "tailwindcss -i ./src/input.css -o ./src/assets/main.css --watch",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
